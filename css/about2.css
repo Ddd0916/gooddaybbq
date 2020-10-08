@@ -23,7 +23,7 @@
 
 
 .wrapA {
-    /* background-color: yellow; */
+    background-color: yellow;
     /* border: 4px solid red; */
     width: 1200px;
     margin: 0 auto;
@@ -193,9 +193,9 @@ a.more:hover {
     color: rgb(61, 61, 61);
 }
 
-/* -------------商品區A--------------------- */
-
-/* 展示區C */
+/* -------------商品區END-------------------- */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* 展示區 */
 .wrapC {
     width: 100%;
 
@@ -245,8 +245,10 @@ a.more:hover {
     width: 100%;
     margin: 0 auto;
     /* padding: 20px 0; */
+    padding-bottom: 50px;
     font-size: 0;
     position: relative;
+
 }
 
 .wrapB h2 {}
@@ -309,14 +311,14 @@ a.more:hover {
 }
 
 .bubbles {
-    /* border: 2px solid rgb(112, 6, 250); */
+    border: 2px solid rgb(112, 6, 250);
     width: 100%;
     height: 600px;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
     position: absolute;
-    bottom: 0px;
+    bottom: 50px;
     z-index: 9;
     overflow: hidden;
     opacity: .8;
@@ -325,10 +327,7 @@ a.more:hover {
 .bubbles img {
     transform: translateY(70px);
     transition: ease-in-out;
-    /* position: absolute; */
-    /* border: 10px solid red; */
     width: 50px;
-    /* animation: bubblesA 3s linear infinite; */
     animation: bubbles 3s linear infinite;
 }
 
@@ -382,8 +381,117 @@ a.more:hover {
     animation-delay: 2s;
 }
 
+/* fbmsp */
+
+.fb_mag {
+    /* padding-top: 50px; */
+    width: 95%;
+    /* height: 5; */
+    margin: 0 auto;
+    background-color: #ddd;
+}
+
+.fb_from {
+    padding: 25px;
+
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb_from_title {
+    /* padding: 15px; */
+    /* border: 1px solid red; */
+    /* line-height: 5px; */
+}
+
+.kappa {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* border: 1px solid rgb(29, 3, 3); */
+    /* margin: 10px; */
+}
+
+.kappa img {
+
+    /* animation-direction: alternate; */
+    /* 動作完成時反向動作 */
+    /* border: 1px solid rgb(0, 199, 27); */
+    padding-left: 5px;
+    width: 30px;
+    /* height: 30px; */
+}
+
+.kappa:hover img {
+    animation: kappaB 1s linear infinite;
+}
+
+
+@keyframes kappaB {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(0px, -9px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.kappa img:nth-child(6) {
+    animation-delay: 3s;
+}
+
+.kappa img:nth-child(5) {
+    animation-delay: 2.5s;
+}
+
+.kappa img:nth-child(4) {
+    animation-delay: 2s;
+}
+
+.kappa img:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+.kappa img:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.kappa img:nth-child(1) {
+    /* animation-delay: 5s; */
+}
+
+
+.containerB {
+    padding: 15px;
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.containerB img {
+    width: 95%;
+    height: 100%;
+    /* padding: 5px; */
+}
+
+
+
+
+/* fbmsg */
+
+
 /* map */
 .wrapD {
+    border: 2px solid blue;
     width: 100%;
     height: 600px;
     background-color: rgba(35, 47, 61, 1);

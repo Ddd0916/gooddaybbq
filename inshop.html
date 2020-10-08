@@ -7,7 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/slick-theme.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./css/inshop.css">
+    <link rel="stylesheet" href="./css/showshop.css">
 </head>
 <style>
 
@@ -48,10 +51,14 @@
     <div class="header-150"></div>
     <div class="title">
         <div class="bared">
-            <a href="">Home</a>><a href="">STORE</a>>MEAT
+            <a href="/index.html" class="black">HOME</a>
+            <a>></a>
+            <a href="/Allgoods.html">STORE</a>
+            <a>></a>
+            <a>目前品項</a>
         </div>
         <h2>UNDERDOG BBQ EXCLUSIVE BUNDLE BOX (LIMITED SUPPLY ONLY)</h2>
-        <div class="line"></div>
+        <div class="line" data-aos="fade-right" data-aos-duration="1500"></div>
     </div>
     <!-- heard____________-------------- -->
     <div class="inshopimg">
@@ -68,6 +75,7 @@
         <div class="shbtn_text">
             <h2>We are excited to announce the release of our 3 BRAND NEW sauces that we are adding to the Underdog BBQ
                 Family!</h2>
+            <!-- <div class="line1" data-aos="fade-right" data-aos-duration="1500"></div> -->
             <p>With this 3 pack, you will receive one of each of our 3 new signature sauces:</p>
             <h3>-Silent Assassin BBQ (13oz.)
 
@@ -100,15 +108,18 @@
 
                 <div class="add"><a href="">ADD TO CART +</a></div>
                 <div></div>
+                <!-- <div class="add"><a href="">ADD TO CART +</a></div>
+                <div></div> -->
                 <div class="buy"><a href="">BUY with<i class="fab fa-google"></i></a>Pay</div>
+
+
             </div>
             <div class="icon">
-                <p>More payment options<p>
+                <p class="p1">More payment options<p>
+                        <i class="fab fa-apple-pay"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-visa"></i>
 
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fas fa-envelope"></i>
-                        <!-- <i class="fab fa-google-play"></i> -->
             </div>
 
         </div>
@@ -118,10 +129,61 @@
         <h2>YOU MAY ALSO LIKE</h2>
 
     </div>
-    <div class="line"></div>
-    <div class="plan_v_like">
-        123
+    <div class="line" data-aos="fade-right" data-aos-duration="1500"></div>
+
+    <!-- you mb like -->
+    <div class="containerAAA">
+        <div class="item" data-aos="fade-up" data-aos-duration="800">
+            <a href="./inshop.html" class="card1">
+                <img src="./images/IMG_4170_540x.png" alt="">
+                <div class="tocart">ADD TO CART</div>
+            </a>
+            <div class="text">
+                <a href="" class="showtext">
+                    <h2>GOOD DAY BBQ 3-PACK (ALL NEW SAUCES!)</h2>
+                </a>
+                <p>$24.99</p>
+            </div>
+        </div>
+
+        <div class="item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+            <a href="./inshop.html" class="card1"><img src="./images/indeximg06.jpg" alt="">
+                <div class="tocart">ADD TO CART</div>
+            </a>
+            <div class="text">
+                <a href="./inshop.html" class="showtext">
+                    <h2>GOOD DAY BBQ 3-PACK (ALL NEW SAUCES!)</h2>
+                </a>
+                <p>$24.99</p>
+            </div>
+        </div>
+
+        <div class="item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+            <a href="./inshop.html" class="card1"><img src="./images/indeximg06.jpg" alt="">
+                <div class="tocart">ADD TO CART</div>
+            </a>
+            <div class="text">
+                <a href="./inshop.html" class="showtext">
+                    <h2>GOOD DAY BBQ 3-PACK (ALL NEW SAUCES!)</h2>
+                </a>
+                <p>$24.99</p>
+            </div>
+        </div>
+        <div class="item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
+            <a href="./inshop.html" class="card1"><img src="./images/indeximg06.jpg" alt="">
+                <div class="tocart">ADD TO CART</div>
+            </a>
+            <div class="text">
+                <a href="./inshop.html" class="showtext">
+                    <h2>GOOD DAY BBQ 3-PACK (ALL NEW SAUCES!)</h2>
+                </a>
+                <p>$24.99</p>
+            </div>
+        </div>
     </div>
+    <!-- you mb like -->
+
+
     <!-- footer -->
     <div class="main-footer">
         <div class="container">
@@ -172,6 +234,7 @@
     </script>
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="js/slick.js"></script>
+
     <script>
         $('.containerA').slick({
             dots: true,
@@ -181,6 +244,28 @@
             cssEase: 'linear'
         });
     </script>
+
+    <!-- <script>
+        $('.containerB').slick({
+            slidesToShow: 4,
+            slidesToScroll: 4
+        });
+
+        var filtered = false;
+
+        $('.js-filter').on('click', function () {
+            if (filtered === false) {
+                $('.filtering').slick('slickFilter', ':even');
+                $(this).text('Unfilter Slides');
+                filtered = true;
+            } else {
+                $('.filtering').slick('slickUnfilter');
+                $(this).text('Filter Slides');
+                filtered = false;
+            }
+        });
+    </script> -->
+
     <script>
         AOS.init();
     </script>
