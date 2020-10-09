@@ -100,8 +100,9 @@ body {
 }
 
 .planC {
-    background-color: #ddd;
-    border: 1px solid red;
+    background-color: rgba(221, 221, 221, 0.384);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    /* border: 1px solid red; */
     width: 1200px;
     min-width: 1200px;
     margin: 0 auto;
@@ -186,12 +187,14 @@ a.card2 {
     transition: transform .5s;
 }
 
+
+
 a.showtext {
     color: rgb(31, 31, 31);
 }
 
 a.showtext:hover {
-    color: rgb(85, 85, 85);
+    /* color: rgb(85, 85, 85); */
 }
 
 .tocart:hover {
@@ -221,7 +224,7 @@ a.showtext:hover {
 
 /* -----shadow test----- */
 #div1 {
-
+    background-color: rgba(252, 255, 207, 0.103);
     transition: box-shadow .25s;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }

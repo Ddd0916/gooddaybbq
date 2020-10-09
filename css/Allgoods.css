@@ -9,6 +9,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    /* font-family: sans-serif; */
     /* background-color: blue; */
 }
 
@@ -42,7 +43,7 @@
     border: 1px solid rgb(179, 255, 0);
     width: 1200px;
     margin: 0 auto;
-    height: 550px;
+    height: 100vh;
     background-color: rgba(216, 191, 216, 0.075);
     font-size: 16px;
     text-align: center;

@@ -1,101 +1,11 @@
-.banner {
-    font-size: 0;
-    /* border: 3px solid red; */
-    position: relative;
+div.banner {
     width: 100%;
-    margin: auto;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
-
-.screen {
-    top: 0;
+.banner_cor {
     width: 1200px;
     margin: 0 auto;
-    /* height: 500px; */
-    background-color: rgb(141, 141, 141, .3);
-    /* border: 2px solid blue; */
-    /* z-index: 2; */
+    height: 100vh;
+    background-color: tomato;
 }
-
-video {
-    position: relative;
-    width: 100%;
-    height: auto;
-    mix-blend-mode: screen;
-}
-
-/* "------buybtn---------" */
-
-div.video-buybtn {
-    background-color: #c00000;
-    /* border: 1px solid red; */
-    width: auto;
-    height: auto;
-    padding: 15px;
-    position: absolute;
-    z-index: 8;
-    top: 45%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: black;
-    font-size: 1.1rem;
-}
-
-.video-buybtn:hover {
-    background-color: #f70303;
-}
-
-.test {
-    font-size: 1.5rem;
-    position: absolute;
-    width: auto;
-    height: auto;
-    top: 25%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.test h1 {
-    font-size: 50px;
-    color: rgb(0, 0, 0);
-    animation: animate 2s 1;
-    /* animation: ease-in; */
-}
-
-@keyframes animate {
-    0% {
-        transform: scale(0);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-.video-buybtn a {
-    color: rgb(0, 0, 0);
-    z-index: 9;
-}
-
-.video-buybtn a span {
-    display: inline-block;
-    margin-right: 5px;
-    animation: arrow 1s linear infinite;
-}
-
-@keyframes arrow {
-    0% {
-        transform: translateX(-5px);
-    }
-
-    50% {
-        transform: translateX(5px);
-    }
-
-    100% {
-        transform: translateX(-5px);
-    }
-}
-
-/* "------buybtn---------" */

@@ -17,7 +17,7 @@ h2.topline {
 
 .header-150 {
     /* border: 1px solid red; */
-    height: 100px;
+    height: 60px;
     /* background-color: brown; */
 
 }
@@ -54,16 +54,16 @@ h2.topline {
     background-color: rgb(28, 37, 48);
     box-shadow: 1px 1px 40px 0 rgba(223, 2, 2, 0.1);
     position: fixed;
-    /* justify-content: ; */
     width: 100%;
     z-index: 3333;
     height: 65px;
-    /* border: 1px solid blue; */
     font-size: 0;
-    /* overflow: hidden; */
+
 }
 
-
+.header_co {
+    /* width: 1200px; */
+}
 
 
 .header ul {
@@ -84,7 +84,7 @@ h2.topline {
 }
 
 .ciconA {
-    display: flex;
+    /* display: flex; */
 }
 
 .iconA,
@@ -208,7 +208,7 @@ h2.topline {
 
 @media(max-width:) {}
 
-@media(min-width:1000px) {
+@media(min-width:1200px) {
     .header li {
         float: left;
         /* display: none; */

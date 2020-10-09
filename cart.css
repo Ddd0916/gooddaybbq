@@ -1,0 +1,342 @@
+@import "./css/common/header.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.item_title {
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid rgb(107, 32, 32); */
+    height: 50px;
+    text-align: center;
+}
+
+.item_title_line {
+    display: block;
+    width: 32px;
+    height: 5px;
+    /* color: red; */
+    line-height: 50px;
+}
+
+.main {
+    width: 100%;
+}
+
+.main_cor {
+    width: 1200px;
+    margin: 0 auto;
+    height: 300vh;
+    background-color: rgb(1, 175, 30);
+    /* display: flex; */
+    text-align: right;
+}
+
+.main_cor:first-child {
+    /* text-align: center; */
+}
+
+.cart_head {
+    background-color: cornsilk;
+    display: flex;
+
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    height: 120px;
+    line-height: 50px;
+    border-bottom: 1px solid #DDD;
+    border-top: 1px solid rgb(156, 19, 19);
+}
+
+.cart_head p {
+    font-size: 15px;
+}
+
+.cart_head div {
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 150px;
+    /* margin-block-end: 1em; */
+}
+
+.cart_head div:first-child {
+    width: 350px;
+    text-align: left;
+
+}
+
+.cart_head div p {
+    /* font-size: 0px; */
+}
+
+/* __________________ */
+.product_A {
+    /* height: 50px; */
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.product_A img {
+    /* width: 150px; */
+    height: 90px;
+}
+
+..quantity_A {
+    /* padding: 151px; */
+    /* margin: 100px; */
+}
+
+
+.quantity_A button {
+    width: 30px;
+}
+
+.toal_A {
+    position: relative;
+}
+
+.toal_A::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 1px;
+    position: absolute;
+    /* color: rgb(0, 0, 0); */
+    background-color: rgb(0, 0, 0);
+    right: -35%;
+    bottom: 50%;
+    transform: rotate(45deg);
+}
+
+.toal_A::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 1px;
+    position: absolute;
+    /* color: rgb(0, 0, 0); */
+    background-color: rgb(0, 0, 0);
+    right: -35%;
+    bottom: 50%;
+    transform: rotate(-45deg);
+}
+
+
+/* ---賣場說明--- */
+/* 消費者資訊 */
+.cart_user {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.i_try {
+    position: relative;
+    color: #4b4b4b;
+}
+
+.i_try::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    width: 360px;
+    /* height: 1px; */
+    /* background-color: red; */
+    border: 1px #4b4b4b solid;
+}
+
+.i_try::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 360px;
+    /* height: 1px; */
+    /* background-color: red; */
+    border: 1px #4b4b4b solid;
+}
+
+.i_or {
+    /* border: 3px solid blue; */
+    color: #4b4b4b;
+    position: relative;
+    padding: 30px 0;
+}
+
+.i_or::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    width: 380px;
+    border: 1px #4b4b4b solid;
+}
+
+.i_or::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 380px;
+    border: 1px #4b4b4b solid;
+}
+
+.cart_user .crumbs {
+    border-bottom: 1px #e6e6e6 solid;
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    line-height: 60px;
+}
+
+/* -------快速結帳--- */
+/* user_information */
+.user_information {
+    border: 1px solid red;
+    text-align: left;
+    padding: 15px 0;
+    line-height: 40px;
+}
+
+.email {
+    width: 400px;
+    height: 40px;
+    /* border-radius: 3%; */
+}
+
+.user_cor {
+    width: 500px;
+    border: 1px solid blue;
+    text-align: left;
+    line-height: 50px;
+}
+
+.user_name label {
+    border: 2px solid black;
+    width: 500px;
+}
+
+.user_name input {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 3%;
+    height: 40px;
+}
+
+.
+/* user_information */
+
+.cart_user div.crumbs_a {
+    width: 30%;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(76, 107, 165);
+
+}
+
+.cart_user div.crumbs_a:hover {
+    background-color: rgb(101, 139, 211);
+}
+
+.cart_user div.crumbs_b {
+    width: 30%;
+    height: 50px;
+    cursor: pointer;
+    margin: 0 15px;
+    background-color: rgb(201, 24, 24);
+}
+
+.cart_user div.crumbs_b:hover {
+    background-color: rgb(153, 17, 17);
+}
+
+.cart_user div.crumbs_c {
+    cursor: pointer;
+    width: 30%;
+    height: 50px;
+    background-color: rgb(226, 241, 82);
+}
+
+.cart_user div.crumbs_c:hover {
+    background-color: rgb(183, 196, 65);
+}
+
+/* 消費者資訊 */
+
+
+
+.cart_head_planB {
+    border: 1px solid red;
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 0;
+}
+
+#w3review {
+
+    max-width: 100%;
+    min-height: 120px;
+    width: 100%;
+
+    padding: 10px;
+    height: auto;
+    text-align: start;
+}
+
+.cart_head_planC {
+    border: 1px solid rgb(0, 0, 0);
+    width: 800px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+.cart_head_planD {
+    border: 1px solid rgb(0, 0, 0);
+    width: 800px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 10px 0;
+    line-height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart_head_planD .product_bk input {
+    width: 120px;
+    height: 50px;
+    font-size: 13px;
+    cursor: pointer;
+    border: transparent;
+    background-color: rgb(238, 238, 238);
+}
+
+#w3review {}
+
+.cart_head_planD .product_go input {
+    /* padding: 0 5px; */
+    /* margin: 0 5px; */
+    margin-left: 20px;
+    border: transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #C00000;
+    color: #d3d3d3;
+}

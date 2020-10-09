@@ -8,15 +8,20 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: serif;
+    /* font-family: sans-serif; */
+}
+
+body {
+    background-color: rgba(196, 196, 196, 0.493);
 }
 
 .wrap {
+    border: 1px solid red;
     width: 100%;
     margin: 0 auto;
-    padding: 60px 0;
+    /* padding: 60px 0; */
     font-size: 0;
-    background-color: rgba(255, 255, 255, 0.384);
+    /* background-color: rgba(194, 80, 80, 0.384); */
 }
 
 
@@ -53,9 +58,26 @@ div.wrapAlineA {
     width: 1200px;
     min-width: 1200px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
+
+.item_title {
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid rgb(107, 32, 32); */
+    height: 50px;
+    text-align: center;
+}
+
+.item_title_line {
+    display: block;
+    width: 32px;
+    height: 5px;
+    color: red;
+    line-height: 50px;
+}
 
 .item {
     /* border: 1px solid blue; */
@@ -194,8 +216,9 @@ a.more:hover {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    /* position: absolute; */
-    bottom: 50px;
+    position: absolute;
+    /* left: 40px; */
+    /* bottom: 50px; */
     z-index: 9;
     overflow: hidden;
     opacity: .8;
@@ -266,22 +289,22 @@ a.more:hover {
     /* height: 5; */
     margin: 0 auto;
     /* background-color: #ddd; */
+    background-color: #dadada;
 }
 
 
 .fb_magg {
-    background-color: rgba(214, 214, 214, 0.479);
+    /* background-color: rgba(214, 214, 214, 0.479); */
     width: 1200px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    background-color: #dadada;
 }
 
 .fb_from {
-    background-color: rgba(201, 201, 201, 0.856);
+    /* background-color: rgba(73, 43, 180, 0.479); */
     /* border: 30px solid rgb(0, 0, 0); */
     padding: 25px;
-    /* min-width: 1200px; */
-    /* border: 1px solid rgb(37, 8, 8); */
     width: 1200px;
     margin: 0 auto;
     height: 90px;
@@ -292,12 +315,14 @@ a.more:hover {
 .fb_from_title {
     width: 100%;
     /* min-width: 1200px; */
+    /* background-color: rgba(214, 214, 214, 0.479); */
 }
 
 .containerB {
+    /* background-color: rgba(185, 57, 57, 0.479); */
     padding: 15px;
     width: 90%;
-    height: 270px;
+    /* height: 270px; */
     margin: 0 auto;
 }
 
@@ -381,10 +406,12 @@ a.more:hover {
 
 .wrapD {
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     /* background-color: rgba(35, 47, 61, 1); */
     margin: 50px 0 50px 0;
     position: relative;
+    border: 1px solid red;
+    background-color: rgba(35, 47, 61, 1);
 }
 
 .wrapD_box {
@@ -394,6 +421,7 @@ a.more:hover {
     background-color: rgba(35, 47, 61, 1);
     height: 500px;
     position: relative;
+
     text-align: left;
     line-height: 40px;
 }
@@ -403,13 +431,13 @@ a.more:hover {
     position: absolute;
     top: 80px;
     left: 50px;
-    /* border: 1px solid blue; */
     height: 250px;
     width: 550px;
     z-index: 1;
     padding: 50px;
     font-size: 1em;
-    /* display: flex; */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .wrapD_texta {
@@ -433,8 +461,9 @@ a.more:hover {
     display: block;
     position: absolute;
     right: 30px;
-    /* border: 3px solid green; */
-    /* background-image: url("/images/map.png"); */
+    top: 40px
+        /* border: 3px solid green; */
+        /* background-image: url("/images/map.png"); */
 }
 
 .dmap img {
@@ -474,3 +503,5 @@ a.more:hover {
 }
 
 /* map */
+
+/* footer */

@@ -1,0 +1,65 @@
+@import "./common/header.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item_title {
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid rgb(107, 32, 32); */
+    height: 50px;
+    text-align: center;
+}
+
+.item_title_line {
+    display: block;
+    width: 32px;
+    height: 5px;
+    color: red;
+    line-height: 50px;
+}
+
+.main {
+    width: 100%;
+}
+
+.main_cor {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: rgb(1, 175, 30);
+    /* display: flex; */
+    text-align: right;
+}
+
+.main_cor:first-child {
+    /* text-align: center; */
+}
+
+.cart_head {
+    /* background-color: cornsilk; */
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.cart_head div {
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 150px;
+    /* margin-block-end: 1em; */
+}
+
+.cart_head div:first-child {
+    width: 250px;
+    text-align: left;
+}
+
+.cart_head div p {
+    /* font-size: 0px; */
+}
