@@ -208,7 +208,7 @@ h2.topline {
 
 @media(max-width:) {}
 
-@media(min-width:1200px) {
+@media(min-width:1000px) {
     .header li {
         float: left;
         /* display: none; */
