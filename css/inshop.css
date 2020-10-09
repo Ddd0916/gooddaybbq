@@ -16,24 +16,14 @@ img {
 
 .title {
     padding-bottom: 60px;
+    border: 1px solid red;
+    width: 100%;
 }
 
-.bared {
-    width: 30%;
-    margin: 0 auto;
-    /* border: 1px solid red; */
-    /* padding: 5px; */
-    display: flex;
-    justify-content: space-around;
-    /* margin: 5px; */
-    /* color: rgb(255, 5, 5); */
-    text-decoration: none;
-    font-size: 16px;
+.titlee {
+    width: 1200px;
 }
 
-.bared a {
-    color: black;
-}
 
 
 
@@ -46,7 +36,10 @@ img {
 
 .inshopimg {
     width: 100%;
+}
 
+.inshopimgg {
+    width: 1200px;
 }
 
 .line {
@@ -70,13 +63,18 @@ img {
 
 div.shbtn {
     /* border: 2px solid blue; */
-    width: 1200;
+    width: 100%;
     height: 400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     position: relative;
     margin-top: 50px;
+    min-width: 1200px;
+}
+
+.shbtnn {
+    width: 1200px;
 }
 
 .line1 {
@@ -178,18 +176,15 @@ div.shbtn {
 }
 
 div.plan_v {
-    /* margin: 5px; */
-    width: 100%;
-    /* margin: auto; */
+    width: 1200px;
     height: 40px;
-    /* border: 1px solid red; */
     text-align: center;
 }
 
 
 
 div.plan_v .line {
-    width: 100%;
+    width: 1200%;
     border: 1px solid red;
     padding-top: 15px;
 }
@@ -203,7 +198,16 @@ div.plan_v .line {
 
 .containerB img {
     padding: 10px;
-
 }
 
 /* you mb like */
+
+.containerAAAA {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.containerAAA {
+    width: 1200px;
+    margin: 0 auto;
+}

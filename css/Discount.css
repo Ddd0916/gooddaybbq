@@ -36,6 +36,12 @@ body {
     opacity: 0.8;
 }
 
+.banner-areaa {
+    width: 1200px;
+    min-width: 1200px;
+
+}
+
 .banner-area .title {
     /* border: 1px solid red; */
     font-size: 100px;
@@ -88,13 +94,16 @@ body {
     width: 100%;
     position: relative;
     top: 600px;
-    background-color: #ddd;
+    /*  */
     height: 1000px;
-    border: 1px solid red;
+    border: 1px solid rgb(22, 5, 5);
 }
 
 .planC {
-    width: 1000px;
+    background-color: #ddd;
+    border: 1px solid red;
+    width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
     font-size: 0;
