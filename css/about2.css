@@ -217,8 +217,6 @@ a.more:hover {
     align-items: flex-end;
     justify-content: space-around;
     position: absolute;
-    /* left: 40px; */
-    /* bottom: 50px; */
     z-index: 9;
     overflow: hidden;
     opacity: .8;

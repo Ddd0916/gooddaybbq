@@ -76,15 +76,17 @@ h2.topline {
 
 .header ul a {
     color: #bebebe;
-    /* text-shadow: 1px 1px 0 #3f3f3f, 1px 1px 0 #000000; */
-    /* color: rgb(255, 255, 255); */
     display: block;
-
     font-size: 1rem;
+}
+
+.header ul :last-child {
+    /* color: #000000; */
 }
 
 .ciconA {
     /* display: flex; */
+    border: 1px solid red;
 }
 
 .iconA,
@@ -94,11 +96,15 @@ h2.topline {
     height: 100%;
 }
 
+.to_cart a {
+    font-size: 5px;
+}
+
 .cart {
 
     height: 100%;
     width: 50px;
-    cursor: pointer;
+    /* cursor: pointer; */
     padding: 10px;
     /* background-color: rgb(209, 29, 29); */
 }

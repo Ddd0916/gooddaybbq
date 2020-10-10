@@ -94,25 +94,26 @@
 }
 
 .bubbles {
-    /* border: 10px solid rgb(112, 6, 250); */
-    /* overflow: hidden; */
-    width: 100%;
+    /* border: 5px solid rgb(112, 6, 250); */
+    overflow: hidden;
+    width: 1200px;
     height: 550px;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
     position: absolute;
     top: 80px;
+    left: 32px;
     z-index: 9;
     overflow: hidden;
     opacity: .8;
+    /* animation: bubbles 4s linear infinite; */
 }
 
 .bubbles img {
     transform: translateY(70px);
     transition: ease-in-out;
-    /* position: absolute; */
-    /* border: 10px solid red; */
+    /* border: 1px solid red; */
     width: 50px;
     /* animation: bubblesA 3s linear infinite; */
     animation: bubbles 3s linear infinite;
@@ -120,21 +121,25 @@
 
 @keyframes bubbles {
     0% {
+        /* transform: translateX(0); */
         transform: translateY(0);
         opacity: 0;
     }
 
     50% {
-
+        /* transform: translateX(50px); */
+        /* transform: translateY(-150px); */
         opacity: 1;
     }
 
     70% {
-
+        /* transform: translateX(150px); */
+        /* transform: translateY(-250px); */
         opacity: 1;
     }
 
     100% {
+        /* transform: translateX(-200px); */
         transform: translateY(-400px);
         opacity: 0;
     }
@@ -142,6 +147,7 @@
 
 .bubbles img:nth-child(1) {
     animation-delay: 2s;
+    width: 25px;
 }
 
 .bubbles img:nth-child(2) {
@@ -150,6 +156,7 @@
 
 .bubbles img:nth-child(3) {
     animation-delay: 2s;
+    width: 35px;
 }
 
 .bubbles img:nth-child(4) {
@@ -158,6 +165,7 @@
 
 .bubbles img:nth-child(5) {
     animation-delay: 6s;
+    width: 25px;
 }
 
 .bubbles img:nth-child(6) {
@@ -166,6 +174,21 @@
 
 .bubbles img:nth-child(7) {
     animation-delay: 2s;
+    width: 35px;
+}
+
+.bubbles img:nth-child(8) {
+    animation-delay: 6s;
+    width: 25px;
+}
+
+.bubbles img:nth-child(9) {
+    animation-delay: 3s;
+}
+
+.bubbles img:nth-child(10) {
+    animation-delay: 2s;
+    width: 35px;
 }
 
 .arrow {
@@ -229,10 +252,8 @@
 }
 
 .Options {
-    /* background-color: #ddd; */
     padding: 30px 0 50px 0;
-
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 50px;
     margin: 0 auto;
     position: relative;
