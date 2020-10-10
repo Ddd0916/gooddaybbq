@@ -1,18 +1,63 @@
 .footer {
 
     /* height: 400px; */
-    position: relative;
+    /* position: relative; */
     width: 100%;
+    /* height: 500px; */
     margin: auto;
-    border: 1px solid red;
-    background-color: rgb(116, 116, 116);
+    padding-top: 15px;
+    /* border: 1px solid red; */
+    background-color: rgb(28, 37, 48);
+    /* position: relative; */
+    /* bottom: 0px; */
+
 }
 
 .footerr {
+
     width: 1200px;
+    /* border: 1px solid red; */
     margin: 0 auto;
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(28, 37, 48);
 }
+
+.socia-madia {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.socia-madia a {
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    background-color: rgb(28, 37, 48);
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    font-size: 35px;
+    color: #777;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transform: 0.5s;
+}
+
+.socia-madia a:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+        0.5px 0.5px 0px rgba(0, 0, 0, 15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0, 0.1);
+    transform: translateY(2px);
+}
+
+
+
+
 
 .footer .footer_bottom {
     /* background-color: yellowgreen; */
@@ -21,4 +66,5 @@
     margin: 0 auto;
     text-align: center;
     line-height: 50px;
+    color: rgba(255, 255, 255, 0.7);
 }

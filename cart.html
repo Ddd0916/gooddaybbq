@@ -240,13 +240,66 @@
                 </div>
             </div>
         </div>
-
     </div>
+    <div class="footer">
+        <div class="footerr">
+            <div class="socia-madia">
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-twitch"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></i></a>
+                <a href=""><i class="fab fa-google-plus-g"></i></a>
+            </div>
+
+            <div class="footer_bottom">
+                &copy;Ddd0916
+            </div>
+        </div>
+    </div>
+    <div class="gototop">TOP</div>
+    <!-- footer -->
+
+
+
+
+    <script>
+        $(function () {
+
+            $(window).scroll(function () {
+                //var $(window).scrollTop(); 為 scroll
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= 70) {
+                    // 當卷軸超過70px,.gototop就淡入，如果小於就淡出
+                    $(".gototop").fadeIn();
+
+                } else {
+
+                    $(".gototop").fadeOut();
+
+                }
+            });
+            // 當我按下.gototop時，添加動畫讓卷軸跑道最上面
+            $('.gototop').click(function () {
+                $('html,body').animate({
+                    scrollTop: $('html').offset().top
+                })
+
+                return false;
+            });
+
+        })
+    </script>
+
+
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
         integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous">
     </script>
     <script>
         AOS.init();
+    </script>
+    <script>
+
     </script>
 </body>
 </body>

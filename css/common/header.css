@@ -52,7 +52,7 @@ h2.topline {
 
 .header {
     background-color: rgb(28, 37, 48);
-    box-shadow: 1px 1px 40px 0 rgba(223, 2, 2, 0.1);
+    box-shadow: 1px 1px 40px 0 rgba(197, 0, 0, 0.185);
     position: fixed;
     width: 100%;
     z-index: 3333;
