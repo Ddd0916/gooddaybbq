@@ -5,11 +5,40 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
+body {
+    background-color: rgba(221, 221, 221, 0.329);
+
+}
+
+.item_title_text {
+    /* border: 1px solid red; */
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.wrapAline {
+    /* border: 1px solid rgb(143, 241, 13); */
+    font-size: 1rem;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    width: 36px;
+    height: 3px;
+    background: #c00000;
+    left: 48%;
+    z-index: 1;
+}
+
+
+
 .item_title {
+    padding: 30px;
     width: 1200px;
-    min-width: 1200px;
+    /* min-width: 1200px; */
     margin: 0 auto;
     /* border: 2px solid rgb(107, 32, 32); */
     height: 50px;
@@ -26,12 +55,13 @@
 
 .main {
     width: 100%;
+    /* background-color: #d3d3d3; */
 }
 
 .main_cor {
     width: 1200px;
     margin: 0 auto;
-    height: 300vh;
+    height: 200vh;
     /* background-color: rgb(1, 175, 30); */
     /* display: flex; */
     text-align: right;
@@ -44,14 +74,16 @@
 .cart_head {
     /* background-color: cornsilk; */
     display: flex;
-
     align-items: center;
     width: 800px;
     margin: 0 auto;
     height: 120px;
-    line-height: 50px;
     border-bottom: 1px solid #DDD;
-    /* border-top: 1px solid rgb(156, 19, 19); */
+    /* padding: 15px 15px; */
+}
+
+.cart_head div {
+    /* margin: 0 auto; */
 }
 
 .cart_head p {
@@ -59,10 +91,9 @@
 }
 
 .cart_head div {
-    margin: 0 auto;
     /* border: 1px solid red; */
+    margin: 0 auto;
     width: 150px;
-    /* margin-block-end: 1em; */
 }
 
 .cart_head div:first-child {
@@ -88,6 +119,11 @@
     height: 90px;
 }
 
+.quantity_AA input {
+    width: 100%;
+    background-color: #C00000;
+}
+
 ..quantity_A {
     /* padding: 151px; */
     /* margin: 100px; */
@@ -96,6 +132,8 @@
 
 .quantity_A button {
     width: 30px;
+    /* border-radius: 50%; */
+    outline: none;
 }
 
 .toal_A {
@@ -108,11 +146,12 @@
     width: 20px;
     height: 1px;
     position: absolute;
-    /* color: rgb(0, 0, 0); */
     background-color: rgb(0, 0, 0);
     right: -35%;
     bottom: 50%;
     transform: rotate(45deg);
+    /* color: skyblue; */
+    cursor: pointer;
 }
 
 .toal_A::after {
@@ -126,12 +165,15 @@
     right: -35%;
     bottom: 50%;
     transform: rotate(-45deg);
+    cursor: pointer;
 }
 
 
 /* ---賣場說明--- */
 /* 消費者資訊 */
 .cart_user {
+    /* border: 1px solid red; */
+    padding-bottom: 50px;
     width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -141,6 +183,7 @@
 .i_try {
     position: relative;
     color: #4b4b4b;
+    font-size: 18px;
 }
 
 .i_try::after {
@@ -151,7 +194,8 @@
     width: 360px;
     /* height: 1px; */
     /* background-color: red; */
-    border: 1px #4b4b4b solid;
+    background-color: #C00000;
+    border: 1px solid #C00000;
 }
 
 .i_try::before {
@@ -161,8 +205,8 @@
     left: 0%;
     width: 360px;
     /* height: 1px; */
-    /* background-color: red; */
-    border: 1px #4b4b4b solid;
+    background-color: #C00000;
+    border: 1px solid #C00000;
 }
 
 .i_or {
@@ -170,6 +214,7 @@
     color: #4b4b4b;
     position: relative;
     padding: 30px 0;
+    font-size: 18px;
 }
 
 .i_or::after {
@@ -178,7 +223,8 @@
     top: 50%;
     right: 0%;
     width: 380px;
-    border: 1px #4b4b4b solid;
+    background-color: #C00000;
+    border: 1px solid #C00000;
 }
 
 .i_or::before {
@@ -187,7 +233,8 @@
     top: 50%;
     left: 0%;
     width: 380px;
-    border: 1px #4b4b4b solid;
+    background-color: #C00000;
+    border: 1px solid #C00000;
 }
 
 .cart_user .crumbs {
@@ -206,46 +253,111 @@
 /* -------快速結帳--- */
 /* user_information */
 .user_information {
-    /* border: 1px solid red; */
     text-align: left;
-    padding: 15px 0;
     line-height: 40px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.user_information input {
+    padding: 0px 15;
+    /* background-color: sienna; */
 }
 
 .email {
     width: 400px;
     height: 40px;
-    /* border-radius: 3%; */
+}
+
+.email input {
+    padding: 0 15px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.email input:focus {
+    border: 2px solid rgb(146, 209, 228);
+    transition: 0.3s ease-in-out;
 }
 
 .user_cor {
     width: 500px;
-    /* border: 1px solid blue; */
     text-align: left;
     line-height: 50px;
 }
 
 .user_name {
+    margin: 10 auto;
     /* text-align: center; */
 }
 
-.user_name input {
-    width: 100%;
-    margin: 0 auto;
-    border-radius: 3%;
-    height: 40px;
+.user_name select:focus {
+    border: 2px solid rgb(146, 209, 228);
+    transition: 0.3s ease-in-out;
 }
 
+.user_name div {
+    /* border: 1px solid rgb(7, 7, 10); */
+    padding: 10px;
+    text-align: center;
+}
+
+.user_name input {
+    padding: 0 15px;
+    border: 1px solid rgb(148, 148, 148);
+    align-items: center;
+    margin: 0 auto;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.user_name input:focus {
+    border: 2px solid rgb(146, 209, 228);
+    transition: 0.3s ease-in-out;
+    /* width: 100%; */
+}
+
+.Addredd input {
+    /* border: 1px solid red; */
+    display: block;
+    width: 98%;
+    margin: 10 auto;
+}
+
+.Addredd_A {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.all_name select {
+    margin: auto;
+    width: 48%;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.Addredd_A select {
+    width: 98%;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+
 .all_name {
-    /* margin: auto; */
-    /* width: 10%; */
-    /* border: 3px solid red; */
+    /* margin: 0 auto; */
+
     display: flex;
-    /* justify-content: space-between; */
+
 }
 
 .all_name input {
-    width: 50%;
+    width: 48%;
     padding: 0 15px;
 }
 
@@ -256,12 +368,11 @@
     width: 30%;
     height: 50px;
     cursor: pointer;
-    background-color: rgb(76, 107, 165);
-
+    background-color: rgb(41, 92, 192);
 }
 
 .cart_user div.crumbs_a:hover {
-    background-color: rgb(101, 139, 211);
+    background-color: rgb(37, 82, 173);
 }
 
 .cart_user div.crumbs_b {
@@ -273,7 +384,7 @@
 }
 
 .cart_user div.crumbs_b:hover {
-    background-color: rgb(153, 17, 17);
+    background-color: rgb(179, 21, 21);
 }
 
 .cart_user div.crumbs_c {
@@ -284,8 +395,31 @@
 }
 
 .cart_user div.crumbs_c:hover {
-    background-color: rgb(183, 196, 65);
+    background-color: rgb(213, 228, 78);
 }
+
+
+/* <!-- ---- 結帳流程---- --> */
+
+div.step {
+    width: 800px;
+    margin: 0 auto;
+    height: 50px;
+    border: 1px solid red;
+    text-align: left;
+}
+
+.bread {
+
+    width: 400px;
+    /* height: 50px; */
+    border: 1px solid rgb(5, 5, 12);
+    display: flex;
+    padding: 0 15px;
+}
+
+/* <!-- ---- 結帳流程---- --> */
+
 
 /* 消費者資訊 */
 
@@ -297,6 +431,7 @@
     margin: 0 auto;
     text-align: left;
     padding: 10px 0;
+
 
 }
 
@@ -330,13 +465,27 @@
     justify-content: flex-end;
 }
 
+.login_yesno {
+    width: 100px;
+    height: 50px;
+    /* border: 1px solid red; */
+    /* padding-right: 152px; */
+    text-align: center;
+}
+
 .cart_head_planD .product_bk input {
-    width: 120px;
+    width: 150px;
     height: 50px;
     font-size: 13px;
     cursor: pointer;
     border: transparent;
     background-color: rgb(238, 238, 238);
+    outline: none;
+}
+
+.cart_head_planD .product_bk input:hover {
+    background-color: rgb(206, 206, 206);
+    transition: 0.5s ease-in-out;
 }
 
 #w3review {}
@@ -346,9 +495,14 @@
     /* margin: 0 5px; */
     margin-left: 20px;
     border: transparent;
-    width: 150px;
+    width: 180px;
     height: 50px;
     cursor: pointer;
     background-color: #C00000;
     color: #d3d3d3;
+}
+
+.cart_head_planD .product_go input:hover {
+    background-color: #9e0000;
+    transition: 0.5s ease-in-out;
 }

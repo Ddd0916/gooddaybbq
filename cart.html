@@ -20,7 +20,8 @@
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <ul class="menu">
 
             <li><a href="./Allgoods.html">所有商品</a></li>
@@ -49,7 +50,7 @@
     <!-- 價目表 -->
     <div class="item_title">
         <div class="item_title_text">
-            <h1>SHOP SAUCES AND RUBS</h1>
+            <h1>Cart</h1>
         </div>
         <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
             <h2 class="wrapAline"></h2>
@@ -77,62 +78,91 @@
             <div class="cart_head">
                 <div class="product_A">
                     <img src="./images/indeximg03.jpg" alt="">
-                    <p>GGBBQQQQQQQ</p>
-                    <p>xl</p>
+                    <div>
+                        <p>GGBBQQ<br>QQQQQQQQQQ</p>
+
+                    </div>
+
+
                 </div>
                 <div class="price_A">
-                    <p> $ 88</p>
+                    <h4> $ 188</h4>
                 </div>
                 <div class="quantity_A">
                     <button>+</button> 1 <button>+</button>
                 </div>
                 <div class="toal_A">
-                    <p>$ 88</p>
+                    <h4>$ 2974</h4>
                 </div>
             </div>
             <div class="cart_head">
                 <div class="product_A">
                     <img src="./images/indeximg01.jpg" alt="">
-                    <p>GGBBQQQQQQQ</p>
-                    <p>xl</p>
+                    <div>
+                        <p>GGBBQQQQQQQ</p>
+                    </div>
+
+
                 </div>
                 <div class="price_A">
-                    <p> $ 88</p>
+                    <h4> $ 188</h4>
                 </div>
                 <div class="quantity_A">
-                    <button>+</button> 1 <button>+</button>
+                    <button> - </button>
+                    1 <button>+</button>
                 </div>
                 <div class="toal_A">
-                    <p>$ 88</p>
+                    <h4>$ 2974</h4>
                 </div>
             </div>
             <div class="cart_head">
                 <div class="product_A">
                     <img src="./images/indeximg02.jpg" alt="">
-                    <p>GGBBQQQQQQQ</p>
-                    <p>xl</p>
+                    <div>
+                        <p>"Plenty of Fight Left" Tri-Blend Tee</p>
+                    </div>
+
                 </div>
                 <div class="price_A">
-                    <p> $ 88</p>
+                    <h4> $ 2598</h4>
                 </div>
                 <div class="quantity_A">
                     <button>+</button> 1 <button>+</button>
                 </div>
                 <div class="toal_A">
-                    <p>$ 88</p>
+                    <h4>$ 2974</h4>
                 </div>
             </div>
             <!-- 商品裡面 -->
-            <div class="cart_head_planB">
-                <div class="product">
-                    <h3>Special instructions for seller</h3>
+
+            <!-- ---- 結帳流程---- -->
+            <!-- <div class="step">
+                <div class="step_A">
+
+                    <h2>Goodday BBQ</h2>
+                    <div class="bread">
+                        <ol>
+                            <li>
+                                <h3><a href="">Cart</a></h3>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                    </div>
                 </div>
-                <!-- <input type="text"> -->
-            </div>
-            <div class="cart_head_planB">
-                <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
-            </div>
+            </div> -->
+            <!-- ---- 結帳流程---- -->
+
+            <!-- ------快速結帳------ -->
+
             <!-- -地址啥的-- -->
+            <!-- <div class="item_title_text">
+                <h2>Information
+                </h2>
+            </div> -->
+            <!-- <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+                <h2 class="wrapAline"></h2>
+            </div> -->
             <div class="cart_user">
                 <div class="i_try">快速結帳</div>
                 <div class="crumbs">
@@ -144,39 +174,71 @@
 
                 <div class="user_information">
                     <h3>Contact information</h3>
-                    <p><input type="text" value="Email or phone number" class="email"></p>
+                    <div></div>
+                    <div class="email"><input type="text" placeholder="Email or phone number" class="email"></div>
                     <input type="checkbox"> Keep me up to date on news and exclusive offers
                 </div>
                 <div class="user_cor">
-                    <div class="user_name">
+                    <form div class="user_name">
                         <h3>Shipping address</h3>
-                        <div class="all_name"><input type="text" class="user_name_a" value="name">
-                            <input type="text" class=" user_name_b"></div>
+                        <div class="all_name"><input type="text" class="user_name_a" placeholder="First name">
+                            <input type="text" class=" user_name_b" placeholder="Last name"></div>
+                        <div class="Addredd"><input type="text" placeholder="Addredd">
+                        </div>
+                        <div class="Addredd"><input type="text" placeholder="Apartment">
+                        </div>
+                        <div class="Addredd"><input type="text" placeholder="City">
+                        </div>
+                        <div class="all_name"><select name="" id="" class="Payment">
+                                <option value="">Taiwan</option>
+                                <option value="">Japan</option>
+                                <option value="">USA</option>
+                                <option value="">Japan</option>
+                                <option value="">USA</option>
+                                <option value="">Japan</option>
+                                <option value="">USA</option>
+                            </select>
+                            <input type="text" class=" user_name_b" placeholder="Postal Code"></div>
+                        <div class="Addredd_A">
+                            <select name="" id="" class="Payment">
+                                <option value="">--Payment--</option>
+                                <option value="">Line Pay</option>
+                                <option value="">街口支付</option>
+                                <option value="">歐付寶</option>
+                            </select>
+                        </div>
 
-                        <input type="text">
-                        <input type="text">
-                        <div class="all_name"><input type="text" class="user_name_a" value="name">
-
-                            <input type="text" class=" user_name_b"></div>
-                    </div>
+                    </form>
                 </div>
-                <div class="user_name">
 
-                </div>
             </div>
+            <!-- ------快速結帳------ -->
             <!-- -地址啥的-- -->
 
 
             <div class="cart_head_planC">
                 <div class="product">
-                    <h3>SUBTOTAL $23.00</h3>
+                    <h3>SUBTOTAL $ 2974.00</h3>
                 </div>
                 <div class="product">
                     <p>Shipping & taxes calculated at checkout</p>
                 </div>
             </div>
+            <div class="cart_head_planB">
+                <div class="product">
+                    <h3>Special instructions for seller</h3>
+                </div>
+                <!-- <input type="text"> -->
+            </div>
+            <div class="cart_head_planB">
+                <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+            </div>
+
+
+
+
             <div class="cart_head_planD">
-                <div class="login_yesno"></div>
+                <div class="login_yesno"><span></span><a href="" style="font-size: 12px;">加入會員</a></div>
                 <div class="product_bk">
                     <input type="submit" value="BACK STORE" class="shopping">
                 </div>
@@ -190,6 +252,10 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
         integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous">
     </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
 </body>
 
 </html>
