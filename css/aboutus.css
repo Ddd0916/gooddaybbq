@@ -15,141 +15,22 @@ body {
 
 .hero {
     width: 100%;
-    height: 2300px;
+    height: 1700px;
     background-color: rgb(28, 37, 48);
     background-size: cover;
     background-position: center;
     position: relative;
     /* overflow: hidden; */
     /* opacity: .7; */
+    /* border: 1px solid red; */
 }
 
 
 
 /* ---------人頭動畫--------- */
-.bubbles img {
-    /* border: 1px solid red; */
-    width: 30px;
-    animation-name: rotation, move;
-    animation-duration: 3s, 3s;
-    animation-iteration-count: infinite;
-    /* animation: rotation 3s linear infinite; */
-    /* animation: bubbles 3s linear infinite; */
-
-}
-
-
-.bubbles {
-    animation: bubbles 3s infinite;
-    /* border: 1px solid blue; */
-    height: 50px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 0px;
-}
-
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(359deg);
-    }
-}
-
-@keyframes move {
-    0% {
-        /* margin-top: 900px; */
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 1;
-        /* margin-top: 900px; */
-    }
-
-    70% {
-        opacity: 1;
-        /* margin-bottom: 350px; */
-    }
-
-    100% {
-        opacity: 0;
-        /* margin-top: 900px; */
-    }
-}
-
-@keyframes bubbles {
-    0% {
-        transform: translateY(0);
-        opacity: 0;
-    }
-
-    50% {
-
-        opacity: 1;
-    }
-
-    70% {
-
-        opacity: 1;
-    }
-
-    100% {
-        transform: translateY(-100px);
-        opacity: 0;
-    }
-}
 
 
 
-.bubbles img:nth-child(1) {
-    animation-delay: 2s;
-}
-
-.bubbles img:nth-child(1) {
-    animation-delay: 2s;
-}
-
-.bubbles img:nth-child(2) {
-    animation-delay: 1s;
-}
-
-.bubbles img:nth-child(3) {
-    animation-delay: 2s;
-}
-
-.bubbles img:nth-child(4) {
-    animation-delay: 1s;
-}
-
-.bubbles img:nth-child(5) {
-    animation-delay: 2s;
-}
-
-.bubbles img:nth-child(6) {
-    animation-delay: 1s;
-}
-
-.bubbles img:nth-child(7) {
-    animation-delay: 2s;
-}
-
-.bubbles img:nth-child(8) {
-    animation-delay: 0.5s;
-}
-
-.bubbles img:nth-child(9) {
-    animation-delay: 1.3s;
-}
-
-.bubbles img:nth-child(10) {
-    animation-delay: 1s;
-}
 
 /* ---------人頭動畫--------- */
 
@@ -342,7 +223,7 @@ body {
     /* border: 3px solid red; */
     width: 1200px;
     margin: 0 auto;
-    height: 60vh;
+    height: 400px;
     background-color: rgb(28, 37, 48);
     display: flex;
 }
@@ -351,14 +232,23 @@ body {
 
 .lv1_title {
     width: 1200px;
-    padding: 30px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
-    margin: 30px auto;
+    margin: 0px auto;
 }
 
 .lv1_title h3 {
+    color: white;
     font-size: 30px;
+}
+
+.lv1_title_line {
+    width: 32px;
+    height: 3px;
+    background-color: #c00000;
+    margin: 0px auto;
+    margin-bottom: 30px;
 }
 
 /* KAPPA卡 */

@@ -20,13 +20,15 @@ body {
 }
 
 .banner_cr {
-    width: 600px;
-    border: 1px solid rgb(39, 17, 17);
+    width: 1200px;
+    /* border: 1px solid rgb(39, 17, 17); */
     height: 50px;
     margin: 20px auto;
 }
 
 .event_banner_title {
+    /* border: 1px solid red; */
+    /* width: 1200px; */
     font-size: 32px;
     text-align: center;
     align-items: center;
@@ -35,26 +37,116 @@ body {
 .event_line {
 
     width: 32px;
-    height: 5px;
+    height: 4px;
     background-color: #C00000;
     margin: 10px auto;
 }
 
+
+/* ------ */
+
+
 .in_event {
     width: 1200px;
-    height: 100vh;
+    height: 1200pxvh;
     background-color: whitesmoke;
     margin: 40px auto;
+    /* border: 1px solid yellow; */
 }
 
 .in_event_lv1 {
-    border: 1px solid red;
-    width: 600px;
-    height: 300px;
+    /* border: 1px solid red; */
+    width: 1200px;
+    /* height: 200vh; */
     margin: 10px auto;
-    display: flex;
+    /* display: flex; */
 }
 
-.in_event_lv1 img {
+.in_event_lv1 ul {
+    margin: 0;
+    /* padding: 24px 10px 0; */
+    width: 940px;
+    margin: auto;
+    display: block;
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+
+.in_event_lv1 li {
+
+    display: block;
+    list-style: none;
+    margin: 0 0 13px;
+    overflow: hidden;
+    padding: 0;
+    height: 300px;
+    display: flex;
+    text-align: center;
+}
+
+.figure {
+    border: 5px solid rgb(7, 3, 3);
+    border-right: none;
+    width: 400px;
+    opacity: 0.9;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.figure:hover {
+    opacity: 1;
+}
+
+.figure img {
+    width: 100%;
+}
+
+.in_event_lv1 div {
+    border: 5px solid #000000;
+    padding: 15px;
+    width: 540px;
+}
+
+.in_event_lv1 h3 {
+    color: #252525;
+    font-family: "Arial Black", sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 15px 0;
+    /* border: 1px solid red; */
+}
+
+.in_event_lv1 p {
+    padding: 30px 30px 18px;
+    color: #252525;
+    line-height: 24px;
+    margin: 0;
+    font-size: 16px;
+    /* padding: 0; */
+    /* border: 1px solid red; */
+}
+
+.in_event_lv1 a.more {
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    font-family: "Arial Black", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 auto;
+    padding: 8px 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+}
+
+.in_event_lv1 a.more:hover {
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+}
+
+
+img {
     width: 100%;
 }

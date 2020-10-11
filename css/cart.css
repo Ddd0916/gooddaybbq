@@ -64,10 +64,11 @@ body {
 .main_cor {
     width: 1200px;
     margin: 0 auto;
-    height: 200vh;
+    height: 1850px;
     /* background-color: rgb(1, 175, 30); */
     /* display: flex; */
     text-align: right;
+    padding: 10px 0;
 }
 
 .main_cor:first-child {
@@ -256,10 +257,55 @@ body {
 /* -------快速結帳--- */
 /* user_information */
 .user_information {
+    /* border: 1px solid red; */
+    height: 230px;
     text-align: left;
     line-height: 40px;
     border-bottom: 1px solid rgb(0, 0, 0);
+    display: flex;
+    /* justify-content: space-evenly; */
 }
+
+.user_information_A {
+    /* width: 40%; */
+    /* border: 1px solid blue; */
+    padding-right: 50px;
+}
+
+.user_information_B {
+    /* border: 1px solid blue; */
+    line-height: 25px;
+}
+
+.user_information_B div {
+    /* padding: 10px 0; */
+}
+
+.user_information_B p {
+    font-size: 16px;
+}
+
+a.passwd p {
+    font-size: 10px;
+}
+
+.logo_in {
+    width: 120px;
+    margin: auto;
+    padding: 5px 0;
+    text-align: center;
+    /* height: 50px; */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.logo_in :hover {
+    /* background-color: rgb(63, 63, 63); */
+}
+
+
+
 
 .user_information input {
     padding: 0px 15;
@@ -267,7 +313,7 @@ body {
 }
 
 .email {
-    width: 400px;
+    width: 350px;
     height: 40px;
 }
 
@@ -458,8 +504,10 @@ div.step {
 }
 
 .cart_head_planD {
+    /* border: 1px solid red; */
     border-bottom: 1px solid rgb(0, 0, 0);
     width: 800px;
+    /* height: 1300px; */
     margin: 0 auto;
     text-align: right;
     padding: 10px 0;
