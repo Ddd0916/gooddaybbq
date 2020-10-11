@@ -219,9 +219,10 @@
 
 /* --------planb1-------- */
 .wrapA-bac {
+
     /* border: 11px solid red; */
     width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: rgba(155, 155, 155, 0.267);
 }
 
@@ -375,6 +376,13 @@ div.social_block:hover .social_link_list {
     padding-top: 10px;
 }
 
+.containerb .text {
+    /* border: 1px solid red; */
+    /* cursor: not-allowed; */
+}
+
+
+
 a.card1 {
     /* background-image: url(/images/back001010.jpg); */
     /* border: 1px solid blue; */
@@ -429,11 +437,22 @@ a.card2 {
 
 a.showtext {
     color: rgb(31, 31, 31);
+    /* cursor: not-allowed; */
 }
 
 a.showtext:hover {
     color: rgb(85, 85, 85);
 }
+
+a.showtext2 {
+    color: rgb(31, 31, 31);
+    cursor: not-allowed;
+}
+
+a.showtext2:hover {
+    color: rgb(85, 85, 85);
+}
+
 
 .tocart:hover {
     background-color: rgb(192, 0, 0);

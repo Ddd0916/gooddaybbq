@@ -104,7 +104,7 @@ body {}
     /* border: 1px solid red; */
     width: 1200px;
     min-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 20px 0;
     font-size: 0;
     /* border: 1px solid blue; */
@@ -122,6 +122,43 @@ body {}
     display: flex;
     /* border: 1px solid blue; */
 }
+
+.money {
+    /* border: 2px solid rgb(0, 0, 0); */
+    position: relative;
+}
+
+.money::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    right: 43%;
+    bottom: 8px;
+    transform: rotate(20deg);
+}
+
+.money::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    right: 43%;
+    bottom: 8px;
+    transform: rotate(-20deg);
+}
+
+.money_2 p {
+    font-size: 20px;
+    color: rgb(190, 0, 0);
+}
+
+
+
 
 .item {
     /* border: 1px solid blue; */
