@@ -1,15 +1,8 @@
 .footer {
-
-    /* height: 400px; */
-    /* position: relative; */
     width: 100%;
-    /* height: 500px; */
     margin: auto;
-    /* padding-top: 15px; */
-    /* border: 1px solid red; */
     background-color: rgb(28, 37, 48);
-    /* position: relative; */
-    /* bottom: 0px; */
+
 
 }
 
@@ -19,12 +12,78 @@
     /* border: 1px solid red; */
     margin: 0 auto;
     background-color: rgb(28, 37, 48);
+
 }
 
+.contact-us {
+    padding: 15px;
+    width: 1200px;
+    margin: auto;
+    height: 400px;
+    background-color: rgb(28, 37, 48);
+}
+
+.contact-us-title {
+    /* border: 2px solid red; */
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+
+.contact-us-btn {
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 10px 0px;
+}
+
+.contact-us-btn input {
+    background-color: rgb(37, 48, 63);
+    border: transparent;
+    height: 30px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.contact-us-btn_2 input {
+    background-color: rgb(37, 48, 63);
+    border: transparent;
+    height: 130px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.contact-us-ck {
+    padding: 10px 0px 0px 0px;
+    color: rgb(212, 212, 212)
+}
+
+.contact-us-btn-send {
+    width: 150px;
+    /* height: 30px; */
+    background-color: #c00000;
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px 0;
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+    font-size: 14px;
+
+}
+
+
+
+
+
 .socia-madia {
+    width: 1200px;
     display: flex;
     justify-content: center;
     /* border: 1px solid red; */
+    background-color: rgb(28, 37, 48);
 }
 
 .socia-madia a {
@@ -60,9 +119,9 @@
 
 
 .footer .footer_bottom {
-    /* background-color: yellowgreen; */
+    background-color: rgb(28, 37, 48);
     height: 50px;
-    width: 100%;
+    width: 1200px;
     margin: 0 auto;
     text-align: center;
     line-height: 50px;

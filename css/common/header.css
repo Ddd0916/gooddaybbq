@@ -17,7 +17,7 @@ h2.topline {
 
 .header-150 {
     /* border: 1px solid red; */
-    height: 60px;
+    height: 64px;
     /* background-color: brown; */
 
 }
@@ -46,7 +46,6 @@ h2.topline {
 .header a span.goodday {
     font-size: 35px;
     color: rgb(245, 245, 245);
-
     margin-left: 5px;
 }
 

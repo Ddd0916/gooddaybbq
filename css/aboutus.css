@@ -9,16 +9,21 @@
     text-decoration: none;
 }
 
+body {
+    background-color: rgb(28, 37, 48);
+}
+
 .hero {
     width: 100%;
-    height: 100vh;
-    background-image: url(../images/banner2.png);
+    height: 2300px;
+    background-color: rgb(28, 37, 48);
     background-size: cover;
     background-position: center;
     position: relative;
     /* overflow: hidden; */
-    opacity: .7;
+    /* opacity: .7; */
 }
+
 
 
 /* ---------人頭動畫--------- */
@@ -148,9 +153,326 @@
 
 /* ---------人頭動畫--------- */
 
-.AAA {
+.wrapAline {
+    font-size: 1rem;
+    width: 100%;
+    /* margin: 0px 0px 0px 0px; */
+    position: relative;
+    width: 36px;
+    height: 4px;
+    background: #c00000;
+    left: 48%;
+    z-index: 1;
+    /* border: 1px solid red; */
+}
+
+.about_banner {
+    /* border: 11px solid red; */
+    width: 1200px;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(28, 37, 48); */
+    background-image: url(../images/866495.jpg);
+    background-size: cover;
+}
+
+.about_banner_cr {
+    width: 1200px;
+    /* margin: auto; */
+    /* background-image: url(../images/866495.jpg); */
+    /* background-size: cover; */
+    /* align-items: center; */
+    /* background-color: rgb(28, 37, 48); */
+}
+
+.about_text {
+    text-align: center;
+    padding: 10px 10px;
+    width: 330px;
+    font-size: 50px;
+    margin: 25vh auto;
+    /* background-color: rgb(28, 37, 48); */
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.about_text h3 {
+    /* color: transparent; */
+    border: 3px solid;
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(28, 37, 48);
+    text-shadow: 2px 2px 0 #B5A875, 1px 1px 0 #B5A875;
+}
+
+.about_story {
+    width: 100%;
+}
+
+.about_story_A {
+    width: 1200px;
+    height: 80vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.gif_A {
+    width: 1000px;
+    height: 100%;
+    margin: 15px auto;
+    background-size: cover;
+    background-image: url(/images/about_banner.jpg);
+    border-radius: 5px;
+    -webkit-transition: box-shadow 0.5s linear;
+    -moz-transition: box-shadow 0.5s linear;
+    -o-transition: box-shadow 0.5s linear;
+    transition: box-shadow 0.5s linear;
+}
+
+.gif_A:hover {
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.story_2 {
+    /* border: 1px solid yellow; */
+    width: 1000px;
+    height: 100vh;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+
+.story_2_text {
+    width: 250px;
+    border: 2px solid #B5A875;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    transition: border-color 0.5s linear;
+    color: white;
+    padding: 30px;
+}
+
+.story_2_text h2 {
+    color: whitesmoke;
+}
+
+.story_2_text:hover {
+    border: 2px solid rgb(17, 8, 8);
+}
+
+.story_2_img {
+    width: 300px;
+    height: 100%;
+    /* border: 3px solid #c00000; */
+    background-size: cover;
+    overflow: hidden;
+    /* padding: 40px 0; */
+}
+
+.story_2_img img {
+    width: 100%;
+    /* height: 100%; */
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+
+}
+
+.story_2_img img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+
+
+.story_2_img_left {
+    overflow: hidden;
+}
+
+.story_2_img_left_2 {
+    margin-top: 30px;
+    /* padding-top: 10px; */
+    border: 2px solid rgb(24, 29, 24);
+    height: 340px;
+    overflow: hidden;
+    /* background-color: rgb(134, 69, 69); */
+    background-image: url(/images/left2.png);
+    background-size: cover;
+    transition: border-color 0.5s linear;
+    border-radius: 1px;
+}
+
+.story_2_img_left_2:hover {
+    border: 3px solid #B5A875;
+}
+
+.story_2_img_right:hover {
+    border: 3px solid #B5A875;
+}
+
+.story_2_img_right {
+    border: 2px solid rgb(24, 29, 24);
+    height: 300px;
+    overflow: hidden;
+    background-image: url(/images/r12.png);
+    background-size: cover;
+    transition: border-color 0.5s linear;
+}
+
+.story_2_img_right_2 {
+    border: 1px solid black;
+    height: 250px;
+    margin-top: 30px;
+    overflow: hidden;
+
+    /* background-color: sandybrown; */
+}
+
+.gif_A img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.lv_1 {
+    /* border: 3px solid red; */
+    width: 1200px;
+    margin: 0 auto;
+    height: 60vh;
+    background-color: rgb(28, 37, 48);
+    display: flex;
+}
+
+
+
+.lv1_title {
+    width: 1200px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.lv1_title h3 {
+    font-size: 30px;
+}
+
+/* KAPPA卡 */
+/* KAPPA卡 */
+/* KAPPA卡 */
+/* KAPPA卡 */
+.card-container {
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    /* border: 1px solid red; */
+}
+
+.card-container:hover .card-inner {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card-inner {}
+
+.card-inner {
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    box-shadow: 6px 6px 10px -1px rgba(0.15, 0.15, 0.15, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.card-imgouter {
+    position: absolute;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100px;
+}
+
+.card-imgouter img {
+    /* width: 100%; */
+    /* height: 100% */
+}
+
+.card-content {
+    /* border: 11px solid red; */
+    position: absolute;
+    background-color: rgb(28, 37, 48);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    box-shadow: 6px 6px 10px -1px rgba(0.15, 0.15, 0.15, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 100%;
+    /* line-height: 300px; */
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.kappa_ab {
+    width: 200px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.kappa_ab img {
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.kappa_ab_text {
+    /* border: 2px solid blue; */
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.kappa_ab_text h4 {
+    font-size: 24px;
+    -webkit-text-stroke: 2px rgb(28, 37, 48);
+    text-shadow: 2px 2px 0 #B5A875, 1px 1px 0 #B5A875;
+}
+
+.kappa_ab_text p {
+    font-size: 20px;
+    color: white;
+    /* -webkit-text-stroke: 2px rgb(28, 37, 48);
+    text-shadow: 2px 2px 0 #B5A875, 1px 1px 0 #B5A875; */
+}
+
+.kappa_b {
+    /* border: 1px solid blue; */
+    margin: 0px auto;
+}
+
+.kappa_b_text h4 {
+    font-size: 30px;
+    background-color: #B5A875;
+    border-radius: 5px;
+    -webkit-text-stroke: 2px rgb(28, 37, 48);
+    text-shadow: 2px 2px 0 #B5A875, 1px 1px 0 #B5A875;
+}
+
+/* KAPPA卡 */
+/* KAPPA卡 */
+/* KAPPA卡 */
+/* KAPPA卡 */
+.story {
     width: 1200px;
     margin: auto;
-    height: 550px;
-    background-color: blue;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.story h3 {
+    font-size: 40px;
 }
