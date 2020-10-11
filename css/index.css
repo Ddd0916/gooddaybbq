@@ -333,6 +333,15 @@ a.showtext:hover {
     color: rgb(85, 85, 85);
 }
 
+a.showtext2 {
+    cursor: not-allowed;
+    color: rgb(31, 31, 31);
+}
+
+a.showtext:hover {
+    color: rgb(85, 85, 85);
+}
+
 .tocart:hover {
     background-color: rgb(192, 0, 0);
 }
