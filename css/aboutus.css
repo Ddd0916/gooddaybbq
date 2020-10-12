@@ -142,7 +142,7 @@ body {
     padding: 30px;
     overflow: scroll;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
 
 }
 
