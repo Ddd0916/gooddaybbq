@@ -11,9 +11,7 @@
     /* font-family: sans-serif; */
 }
 
-body {
-    /* background-color: rgb(28, 37, 48); */
-}
+body {}
 
 /* ourFOOD */
 /* ourFOOD */
@@ -493,7 +491,7 @@ a.more:hover {
     width: 1200px;
     /* background-color: rgb(28, 37, 48); */
     margin: auto;
-    height: 60vh;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -528,7 +526,7 @@ a.more:hover {
 .banner3 {
     width: 1200px;
     margin: auto;
-    height: 50vh;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
