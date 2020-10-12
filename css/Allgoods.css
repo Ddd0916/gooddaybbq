@@ -40,7 +40,7 @@
 }
 
 .planB_msk {
-    border: 1px solid rgb(179, 255, 0);
+    /* border: 1px solid rgb(179, 255, 0); */
     width: 1200px;
     margin: 0 auto;
     height: 100vh;
@@ -226,13 +226,60 @@
     background-color: rgba(155, 155, 155, 0.267);
 }
 
+.wrapA-abcd {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.wrapA-abcd input {
+    padding: 5px;
+    margin: 5px;
+    width: 80px;
+    transition: 0.5s;
+}
+
+.wrapA-abcd input:focus {
+    width: 180px;
+}
+
+.wrapA-search {
+    /* height: 100px; */
+    width: 500px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    /* margin: 35px; */
+    padding: 10px 20px 0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapA-search a {
+    color: black
+}
+
+.wrapA-search-b {
+    width: 180px;
+    /* border-bottom: 1px solid red; */
+    /* margin: 35px; */
+    padding: 10px 20px 0 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px;
+    color: black;
+}
+
+.wrapA-search-b a {
+    color: black;
+}
+
+
 .wrapA {
     /* background-color: yellow; */
     /* border: 4px solid red; */
     width: 1200px;
     font-size: 1.73333rem;
     line-height: .6;
-    padding: 100px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     text-align: center;
     position: relative;
     font-size: 30px;
