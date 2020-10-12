@@ -50,7 +50,7 @@ body {
 .about_banner {
     /* border: 11px solid red; */
     width: 1200px;
-    height: 60vh;
+    height: 350px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@ body {
     padding: 10px 10px;
     width: 330px;
     font-size: 50px;
-    margin: 25vh auto;
+    margin: 120px auto;
     /* background-color: rgb(28, 37, 48); */
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
         -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
@@ -93,9 +93,11 @@ body {
 
 .about_story_A {
     width: 1200px;
-    height: 80vh;
+    height: 500px;
+    min-height: 300px;
     margin: 0 auto;
     overflow: hidden;
+    /* border: 3px solid red; */
 }
 
 .gif_A {
@@ -119,7 +121,7 @@ body {
 .story_2 {
     /* border: 1px solid yellow; */
     width: 1000px;
-    height: 100vh;
+    height: 600px;
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
@@ -231,6 +233,7 @@ body {
 
 
 .lv1_title {
+    /* border: 1px solid red; */
     width: 1200px;
     padding: 20px 0;
     display: flex;
@@ -276,7 +279,7 @@ body {
     transition: transform 1.5s;
     transform-style: preserve-3d;
     width: 300px;
-    border: 2px solid rgb(0, 0, 0);
+    /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 100%;
     box-shadow: 6px 6px 10px -1px rgba(0.15, 0.15, 0.15, 0.15),
         -6px -6px 10px -1px rgba(255, 255, 255, 0.7);

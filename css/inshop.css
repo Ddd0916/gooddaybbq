@@ -22,6 +22,7 @@ img {
 
 .titlee {
     width: 1200px;
+    margin: auto;
 }
 
 
@@ -36,10 +37,12 @@ img {
 
 .inshopimg {
     width: 100%;
+    /* border: 1px solid red; */
 }
 
 .inshopimgg {
     width: 1200px;
+    margin: auto;
 }
 
 .line {
@@ -63,7 +66,7 @@ img {
 
 div.shbtn {
     /* border: 2px solid blue; */
-    width: 100%;
+    width: 1200px;
     height: 400px;
     margin: 0 auto;
     display: flex;
@@ -78,7 +81,7 @@ div.shbtn {
 }
 
 .line1 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 36px;
     height: 50px;
     color: #C00000;
@@ -177,9 +180,11 @@ div.shbtn {
 
 div.plan_v {
     width: 1200px;
+    margin: 0 auto;
     height: 40px;
     text-align: center;
     color: black;
+    /* border: 1px solid red; */
 }
 
 
