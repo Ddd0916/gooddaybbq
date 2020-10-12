@@ -150,3 +150,44 @@ body {
 img {
     width: 100%;
 }
+
+.event_banner {
+    width: 100%;
+    border: 1px solid rgb(158, 130, 130);
+    padding: 15px;
+    /* background-color: rgb(28, 37, 48); */
+}
+
+.about_story_A {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.gif_A {
+    width: 1000px;
+    height: 100%;
+    margin: 15px auto;
+    background-size: cover;
+    /* background-image: url(../images/20201010_192514.gif); */
+    border-radius: 5px;
+    -webkit-transition: box-shadow 0.5s linear;
+    -moz-transition: box-shadow 0.5s linear;
+    -o-transition: box-shadow 0.5s linear;
+    transition: box-shadow 0.5s linear;
+}
+
+.gif_A:hover {
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.gif_A h2 {
+    font-size: 40px;
+}
+
+.gif_A video {
+    width: 100%;
+    /* height: 100%; */
+}
