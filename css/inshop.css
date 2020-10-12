@@ -97,7 +97,7 @@ div.shbtn {
 
 .shbtn_money {
     line-height: 40px;
-    height: 270px;
+    height: 280px;
     background-color: rgba(224, 224, 224, 0.425);
     width: 30%;
     /* border: 1px solid rgb(17, 17, 53); */
@@ -134,35 +134,47 @@ div.shbtn {
 
 
 .shbtn_money_a div {
-    margin: 5px 0;
+    /* border: 3px solid red; */
+    /* margin: 5px 0; */
     width: 80%;
     margin: 0 auto;
-    padding: 2px 0;
+    padding: 6px 0;
+    padding-top: 10px;
 }
 
 .shbtn_money_a a {
     color: black;
 }
 
-.add {
-    background-color: rgb(192, 192, 192);
-    color: #252424;
-}
-
-.add:hover {
+.add button {
+    border: transparent;
     cursor: pointer;
-    background-color: rgb(204, 204, 204);
+    padding: 10px 38px;
+    background-color: #727272;
+    color: #000000;
+    font-size: 16px;
 }
 
-.buy {
+.add button:hover {
+    background-color: #585858;
+}
+
+
+
+.buy button {
+    border: transparent;
+    cursor: pointer;
+    padding: 10px 60px;
     background-color: #C00000;
     color: #000000;
+    font-size: 16px;
 }
 
-.buy:hover {
-    /* cursor: pointer; */
-    background-color: #9c0000;
+.buy button:hover {
+    background-color: #a70000;
 }
+
+
 
 .icon {
     text-align: center;
